@@ -1,0 +1,21 @@
+.addTodo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.addTodo__input{
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+.addTodo__btn{
+    width: 70px;
+    height: 40px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}

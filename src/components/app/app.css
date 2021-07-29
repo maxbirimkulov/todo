@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    background-color: skyblue;
+    padding: 228px 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-container{
+    width: 100%;
+    max-width: 500px;
+    padding: 20px 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn-outline-secondary{
+    padding: 0;
+    border: none;
+    height: 0;
+}
+
+.btn-outline-secondary:hover{
+    color: black;
+}
+
+.btn-check:active+.btn-outline-secondary, .btn-check:checked+.btn-outline-secondary, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show, .btn-outline-secondary:active {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+.btn-check:active+.btn-outline-secondary:focus, .btn-check:checked+.btn-outline-secondary:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus, .btn-outline-secondary:active:focus {
+    box-shadow: none;
+}
+.btn-check:focus+.btn-outline-secondary, .btn-outline-secondary:focus {
+    box-shadow: none;
+}

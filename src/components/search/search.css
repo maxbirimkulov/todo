@@ -1,0 +1,39 @@
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.search__input{
+    width: 150px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 7px;
+    outline: none;
+}
+
+.search__btns{
+    display: flex;
+    column-gap: 10px;
+}
+.search__btn{
+    height: 40px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.search__rec {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+}
+.search__btn,
+.search__rec {
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
